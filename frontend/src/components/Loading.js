@@ -5,15 +5,14 @@ const Loading = () => {
         <>
             <Stack
                 direction='column'
-                m=" 75px auto"
+                m="100px auto"
                 justifyContent="center"
                 align="center"
                 maxWidth="500px"
                 borderRadius="25px"
                 height="300px"
-                bg="#edf2f4"
+                bg="#8d99ae"
                 color="#000"
-                backgroundImage="url('https://giphy.com/gifs/cat-kitten-kitty-VxbvpfaTTo3le/fullscreen')"
                 fontFamily="Averia Serif Libre, cursive"
                 fontWeight="bold"
                 fontSize="20"

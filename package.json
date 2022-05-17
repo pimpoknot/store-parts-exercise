@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node start.js",
-    "client": "yarn start --prefix frontend",
-     "dev": "concurrently \"yarn start\" \"yarn run client\"",
+    "server": "node start.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "format": "prettier --loglevel warn --write \"**/*.{js,css,md}\"",
     "posttest": "npm run format"
   },
