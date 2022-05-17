@@ -11,11 +11,12 @@ const Loading = () => {
                 maxWidth="500px"
                 borderRadius="25px"
                 height="300px"
-                bg="#8d99ae"
+                bg="#fff"
                 color="#000"
                 fontFamily="Averia Serif Libre, cursive"
                 fontWeight="bold"
                 fontSize="20"
+                boxShadow="0px 0px 3px 5px rgb(0 0 0 / 32%)"
             >
                 <Box>
                     <Text align="center">Wait while loading data</Text>
