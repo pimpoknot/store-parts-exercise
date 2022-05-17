@@ -37,7 +37,7 @@ npm run dev
 ```
 
 
-`Separe folder`
+`Separate folder`
 
 how to run Backend
 ```
