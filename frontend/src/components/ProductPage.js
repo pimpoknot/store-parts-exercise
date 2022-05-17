@@ -1,8 +1,8 @@
 import { Box, Button, FormControl, FormLabel, Input, Select, Stack, Table, TableCaption, TableContainer, Tbody, Td, Text, Tfoot, Th, Thead, Tr } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import { useLocation, useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import { useAppContext } from "../context/AppContext";
-import { ArrowUpIcon } from '@chakra-ui/icons'
+import { ArrowLeftIcon, ArrowUpIcon } from '@chakra-ui/icons'
 
 const ProductPage = ({ name, price, type }) => {
 
@@ -15,7 +15,16 @@ const ProductPage = ({ name, price, type }) => {
 
     return (
         <Box padding="20px 15px" border="1px solid #000" m="16px auto" maxWidth="1120px">
-            <Text as="h2" fontSize="20px">Store Parts</Text>
+            <Link to="/">
+                <Text
+                    as="h2"
+                    fontSize="20px"
+                    _hover={{
+                        cursor: 'pointer',
+                        textDecoration: 'underline'
+                    }}
+                ><ArrowLeftIcon h="6" w="6" mr="2px"/> BACK TO HOME</Text>
+            </Link>
             <TableContainer>
                 <Table variant='striped' colorScheme='teal'>
                     <Thead>

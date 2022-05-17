@@ -53,7 +53,15 @@ const ListProduct = () => {
             {isLoading ? (
                 <Loading />
             ) : (
-                <Box bg="#fff" mW="1120px" m="15px auto" w="1120px" borderRadius="40px" color="#000">
+                <Box
+                    bg="#fff"
+                    mW="1120px"
+                    m="15px auto"
+                    w="1120px"
+                    borderRadius="40px"
+                    color="#000"
+                    border="1px solid #e5e5e5"
+                    boxShadow="0px 0px 3px 5px rgb(0 0 0 / 32%)">
                     <Box padding="20px 15px">
                         <Text as="h2" fontSize="30px" textAlign="center">Store Parts</Text>
                         <FormControl m="20px 15px">
