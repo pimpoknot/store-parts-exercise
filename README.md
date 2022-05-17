@@ -28,7 +28,7 @@
 ---
 ## How to install and run the application
 
-I install concurrently to run the both folder in the same terminal. But you can run in separate folder.
+I installed concurrently to run the both folder in the same terminal. But you can run in separated folder.
 
 `Using concurrently`
 ```
