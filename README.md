@@ -39,7 +39,7 @@ npm run dev
 
 `Separe folder`
 
-who to run backend
+how to run Backend
 ```
 yarn
 yarn start
@@ -50,7 +50,7 @@ npm install
 npm start
 ```
 
-who to run Front-end
+how to run Front-end
 
 ./frontend
 ```
