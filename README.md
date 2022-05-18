@@ -32,7 +32,7 @@ I installed concurrently to run the both folder in the same terminal. But you ca
 
 `Using concurrently`
 ```
-npm install
+npm install in ./ and /frontend
 npm run dev
 ```
 
